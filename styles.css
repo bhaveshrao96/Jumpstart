@@ -28,8 +28,10 @@ border-radius: 5px;
     width: 377px;
     height: 48px;
 }
-.part{
-    margin-top: 150px;
+.part1{
+    margin-top: 100px;
+    width: 475px;
+    
 }
 .small-card{
     padding: 10px;
@@ -51,5 +53,36 @@ border-radius: 5px;
     height: 498px;
     margin: 20px;
     margin-right: 0;
-    border-radius: 10px; 
+    border-radius: 10px;     
+}
+.card{
+    width:480px;
+    height:593px;
+   
+    align-items: center;
+    margin: 50px;
+    box-shadow: 10px  black;
+}
+.img{
+    width:100%;
+    margin-top: 50px; 
+    border-radius: 5px;
+}
+.smallHeads{
+    display: inline-flex;
+}
+.head{
+    margin: 10px;
+    text-align: center
+}
+.sectionHead{
+ 
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+
+}
+.part1 img{
+    width: 451px;
+    height: 500px;
 }
