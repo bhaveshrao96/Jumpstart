@@ -31,6 +31,7 @@ border-radius: 5px;
 .part1{
     margin-top: 100px;
     width: 475px;
+    margin: 30px;
     
 }
 .small-card{
@@ -49,6 +50,7 @@ border-radius: 5px;
     height: 520px;
 }
 .jumbotron{
+    background-color: white;
     width: 475px;
     height: 498px;
     margin: 20px;
@@ -60,7 +62,7 @@ border-radius: 5px;
     height:593px;
    
     align-items: center;
-    margin: 50px;
+    margin: 30px;
     box-shadow: 10px  black;
 }
 .img{
@@ -70,6 +72,8 @@ border-radius: 5px;
 }
 .smallHeads{
     display: inline-flex;
+    margin: 10px;
+    text-align: center
 }
 .head{
     margin: 10px;
@@ -79,10 +83,26 @@ border-radius: 5px;
  
     justify-content: center;
     text-align: center;
-    font-size: 2em;
+    font-size: 20px;
 
+}
+.sectionHead h1{
+    font-size: 50px;
 }
 .part1 img{
     width: 451px;
     height: 500px;
+}
+.sec6{
+    background-color: #2568ef;
+}
+#Inline .card{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+.card .button{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
 }
