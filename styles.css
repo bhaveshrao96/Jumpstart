@@ -1,0 +1,55 @@
+#Inline{
+    width:  1349px;
+    height: 747px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+
+}
+.sec1{
+   
+     background: linear-gradient(0.25turn, #2a68ec, #875ebd, #ef686c);
+}
+#form{
+    display: flex;
+margin: 30px;
+justify-content: center;
+align-items: center;
+background-color: white;
+width: 475px;
+height: 498px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 5px;
+}
+.form-group{
+    width: 377px;
+    height: 48px;
+}
+.part{
+    margin-top: 150px;
+}
+.small-card{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+    width: 283px;
+    height: 64px;
+}
+.sec2{
+    background-color: white;
+}
+.imgDiv{
+    width: 500px;
+    height: 520px;
+}
+.jumbotron{
+    width: 475px;
+    height: 498px;
+    margin: 20px;
+    margin-right: 0;
+    border-radius: 10px; 
+}
