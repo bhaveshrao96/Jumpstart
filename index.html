@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&amp;display=swap&amp;_cacheOverride=1565192673859" rel="stylesheet">
     <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    
@@ -13,94 +14,96 @@
 </head>
 <body>
     <div class="main">
-        <nav class="navbar navbar-light bg-light">
-            <div class="container">
-                    <a class="navbar-brand" href="#">Jumpstart</a>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown"></div>
-                    <ul class="navbar nav navbar-right">
-                            <li class="nav-item dropdown">
-                                    <a class="headS" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Demos
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <a class="dropdown-item" href="#">Overview</a>
-                                            <a class="dropdown-item" href="#">Landing 1</a>
-                                            <a class="dropdown-item" href="#">Landing 2</a>
-                                            <a class="dropdown-item" href="#">Landing 3</a>
-                                            <a class="dropdown-item" href="#">Landing 4</a>
-                                            <a class="dropdown-item" href="#">Landing 5</a>
-                                            <a class="dropdown-item" href="#">Landing 6</a>
-                            
-                                        </div>
-                                  </li>
-                                  <li class="nav-item dropdown">
-                                        <a class="headS" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          Pages
-                                        </a>
-                                        <div  class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                <a class="dropdown-item" href="#">Overview</a>
-                                                <a class="dropdown-item" href="#">Landing 1</a>
-                                                <a class="dropdown-item" href="#">Landing 2</a>
-                                                <a class="dropdown-item" href="#">Landing 3</a>
-                                                <a class="dropdown-item" href="#">Landing 4</a>
-                                                <a class="dropdown-item" href="#">Landing 5</a>
-                                                <a class="dropdown-item" href="#">Landing 6</a>
-                                
-                                            </div>
-                                      </li>
-                                      <li class="nav-item dropdown">
-                                            <a class="headS" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                              Features
-                                            </a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                    <a class="dropdown-item" href="#">Overview</a>
-                                                    <a class="dropdown-item" href="#">Landing 1</a>
-                                                    <a class="dropdown-item" href="#">Landing 2</a>
-                                                    <a class="dropdown-item" href="#">Landing 3</a>
-                                                    <a class="dropdown-item" href="#">Landing 4</a>
-                                                    <a class="dropdown-item" href="#">Landing 5</a>
-                                                    <a class="dropdown-item" href="#">Landing 6</a>
-                                    
-                                                </div>
-                                          </li>
-                                          <li class="nav-item dropdown">
-                                                <a class="headS" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                  Support
-                                                </a>
-                                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                        <a class="dropdown-item" href="#">Overview</a>
-                                                        <a class="dropdown-item" href="#">Landing 1</a>
-                                                        <a class="dropdown-item" href="#">Landing 2</a>
-                                                        <a class="dropdown-item" href="#">Landing 3</a>
-                                                        <a class="dropdown-item" href="#">Landing 4</a>
-                                                        <a class="dropdown-item" href="#">Landing 5</a>
-                                                        <a class="dropdown-item" href="#">Landing 6</a>
-                                        
-                                                    </div>
-                                              </li>
-                                              <li>
-                                                  <button  class="btn btn-primary xs">
-                                                      Purchase Now
-                                                  </button>
-                                              </li>
-                                </ul>
-                         
-            </div>
-            
-        </nav>
+       
+          <nav id="mainNavbar" class="navbar fixed-top navbar-expand-md py-0 ">
+              <div class="container">
+                      <a class="headBrand" class="navbar-brand" href="#">Jumpstart</a>
+                      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown"></div>
+                      <ul class="navbar nav navbar-right">
+                              <li class="nav-item dropdown">
+                                      <a class="headS" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Demos <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                      </a>
+                                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                              <a class="dropdown-item" href="#">Overview</a>
+                                              <a class="dropdown-item" href="#">Landing 1</a>
+                                              <a class="dropdown-item" href="#">Landing 2</a>
+                                              <a class="dropdown-item" href="#">Landing 3</a>
+                                              <a class="dropdown-item" href="#">Landing 4</a>
+                                              <a class="dropdown-item" href="#">Landing 5</a>
+                                              <a class="dropdown-item" href="#">Landing 6</a>
+                              
+                                          </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                          <a class="headS" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Pages <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                          </a>
+                                          <div  class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                              <a class="dropdown-item" href="#">Company</a>
+                                              <a class="dropdown-item" href="#">Blog</a>
+                                              <a class="dropdown-item" href="#">Help Center</a>
+                                              <a class="dropdown-item" href="#">Careers</a>
+                                              <a class="dropdown-item" href="#">Case Study</a>
+                                              <a class="dropdown-item" href="#">Pricing</a>
+                                              <a class="dropdown-item" href="#">Contact</a>
+                                              <a class="dropdown-item" href="#">Account</a>
+                                              <a class="dropdown-item" href="#">Utility</a>
+                                  
+                                              </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                              <a class="headS" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Features <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                              </a>
+                                              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                      <a class="dropdown-item" href="#">Style Guide</a>
+                                                      <a class="dropdown-item" href="#">Plugins</a>
+                                                      
+                                      
+                                                  </div>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                  <a class="headS" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Support <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                                  </a>
+                                                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                          <a class="dropdown-item" href="#">Documentation</a>
+                                                          <a class="dropdown-item" href="#">Changelog</a>
+                                                          <a class="dropdown-item" href="#">Get Help</a>
+                                                          
+                                                      </div>
+                                                </li>
+                                                <li>
+                                                    <button  class="btn btn-primary xs">
+                                                        Purchase Now
+                                                    </button>
+                                                </li>
+                                  </ul>
+                           
+              </div>
+              
+          </nav>
+     
         <section class="sec1">
             <div id="Inline">
                 <div>
-                <div class="part1">
-                    <h1 class="headXL">Build Fast Launch Quickly</h1>
+                <div  class="part1 " >
+                    <h1 class="headXL">Build fast, launch </h1>
+                      <h1 class="headXL" > quickly.</h1>
                     <p class="headS">Launch your SaaS in style with this suite of carefully crafted pages and components.</p>
                 </div>
-                   <div class="part1"> 
+                   <div class="part2"> 
                         <div class="small-card" >
-                                <h3>Fully Responsive</h3>
+                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                                <h3 class="headS"> Fully Responsive</h3>
                             </div>
                             <div class="small-card">
-                                <h3>Mutiple Layout</h3>
+                                <i class="fa fa-bars" aria-hidden="true"></i> 
+                                <h3 class="headS">Mutiple Layout</h3>
                              </div>
         
                    </div>
@@ -111,26 +114,45 @@
                 <div id="form" class="container">
                         <div class="row">
                          
-                    <div >
+                    <div class="form-container" >
                     <form>
-                    <div class="headXS" class="form-group">
-                            Your Name
-                        <input class="form-control" type="text"  placeholder="Name">
+                    <div>
+                            <div class="form-head">
+                                Your Name
+                            </div> 
+                        <input class="form-control" type="text"  placeholder="Type here">
                     </div>
-                    <div class="headXS" class="form-group">
+                    <div>
+                        <div class="form-head">
                             Email Address
-                        <input class="form-control" type="text" placeholder="Image Url">
+                        </div> 
+                        <input class="form-control" type="text" placeholder="you@yoursite.com">
                     </div>
-                    <div  class="form-group" >
-                            Company Size
-                            <input class="form-control" type="text"  placeholder="Description">
+                    <div  >
+                        <div class="form-head">
+                           Company Size
+                        </div>  <br>
+                            <select class="form-control" name="" id="">
+                              <option value="Select an option">Select an option</option>
+                              <option value="Select an option">1-50</option>
+                              <option value="Select an option">50-500</option>
+                              <option value="Select an option">500+</option>
+                            </select>
                         </div>
-                    <div class="headXS" class="form-group">
-                            Approximate Budget
-                           <input class="form-control" type="text"  placeholder="Description">
-                    </div>
+                        <div  >
+                            <div class="form-head">
+                               Approximate Budget 
+                            </div>  <br>
+                                <select class="form-control" name="" id="">
+                                  <option value="Select an option">Select an option</option>
+                                  <option value="Select an option">Up to $10k</option>
+                                  <option value="Select an option">$10k - $15k</option>
+                                  <option value="Select an option">Over $50k</option>
+                                </select>
+                            </div>
+                        <div >
                    
-                    <div class="headXS" class="form-group">
+                    <div>
                         <button class="btn btn-primary btn-large btn-block">Request Demo</button>
                     </div>
                     </form>
@@ -144,18 +166,21 @@
         <section class="sec2">
         <div id="Inline">
             <div class="part1">
-                <img src="./images/jon-tyson-t2cp_cWMo3o-unsplash.jpg" alt="">
+                <img src="https://jumpstart.mediumra.re/assets/img/illustrations/illustration-3.svg" alt="">
                 
             </div>
             <div>
                     <div class="jumbotron jumbotron-fluid">
                             <div class="container">
-                              <h1 class="headM">Boast about some unique features here
-                                </h1>
-                              <h3>Fully Responsive</h3>  
-                              <p >This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-                              <h3>Multiple Layout</h3>  
-                              <p >This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                              <h1 class="headM">Boast about some unique features here</h1>
+                              <h3 id="headS" class="headS"><i class="fa fa-cogs" aria-hidden="true"></i> Fully Responsive</h3>  
+                              <p >Ned ut perspiciatis unde omnis iste natus error sit 
+                                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque Arya.
+                              </p>
+                              <h3 class="headS"><i class="fa fa-bars" aria-hidden="true"></i> Multiple Layout</h3>  
+                              <p >Ned ut perspiciatis unde omnis iste natus error sit
+                                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque Arya.
+                              </p>
                             </div>
                           </div>
             </div>
@@ -166,30 +191,31 @@
                 <div id="Inline">
                     <div class="part1">
                         <h1 class="headM">Offer potential customers a free sample</h1>
-                        <p >Berspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                    <div class="smallHeads">
+                       <p class="headS">Berspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                        </p>           
+                        <div class="smallHeads">
                         <div class="head">
                             <h1>97%</h1>
-                            <h5 align-items-center>Average Ratings</h5>
+                            <h6 align-items-center>Average Ratings</h6>
                         </div>
                         <div class="head">
                             <h1>24/7</h1>
-                            <h5 align-items-center>Support</h5>
+                            <h6 align-items-center>Support</h6>
                         </div>
                         <div class="head">
                             <h1>142k+</h1>
-                            <h5 align-items-center>Downloads</h5>
+                            <h6 align-items-center>Downloads</h6>
                         </div>
                     </div>
                     </div>
                     <div>
                        
-                                <div class="card" style="width: 18rem;">
-                                        <div class="card-body">
-                                         <img class="img" src="./images/freestocks-org-pUvMN3j2kGc-unsplash.jpg" alt="">
-                                        <input type="text" placeholder="Your Name">
-                                        <input type="text" placeholder="Email Address">
-                                         <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="box-container" >
+                                        <div >
+                                         <img class="img" src="https://jumpstart.mediumra.re/assets/img/blog/thumb-2.jpg" alt="">
+                                        <input class="form-control" type="text" placeholder="Your Name">
+                                        <input class="form-control" type="text" placeholder="Email Address">
+                                         <a href="#" class="btn btn-primary">Download Free Samples</a>
                                         </div>
                                       </div>
                         
@@ -202,7 +228,8 @@
                 <div class="sectionHead">
                         <h1 class="headL">It worked for them</h1>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit 
-                         voluptatem accusantium doloremque laudantium, totam
+                         voluptatem</p>
+                         <p> accusantium doloremque laudantium, totam
                          rem aperiam, eaque ipsa.</p>
                 </div>
                
@@ -240,23 +267,32 @@
                                     <div class="container">
                                       <h1 class="headM">Save tons on design and development
                                         </h1>
-                                       <p class="lead">This is a modified jumbotron that occupies the entire
-                                            horizontal space of its parent.</p>
-                                          <div class="smallHeads">
-                                            <h6 class="headS"><i class="fa fa-certificate"  aria-hidden="true"></i>Fully Responsive</h6>    
-                                            <h6 class="headS"><i class="fa fa-certificate" aria-hidden="true"></i>Multiple Layout</h6>    
+                                       <p class="lead">
+                                         Berspiciatis unde omnis iste natus error sit voluptatem 
+                                         accusantium doloremque laudantium, totam rem aperiam.
+                                      </p>
+                                      <div class="row">
+                                          <div class="col"> <h6 ><img src="./images/success.png" alt="">Fully Responsive</h6></div>
+                                          <div id="second" class="col"> <h6 ><img src="./images/success.png" alt="">Multiple Layout</h6>    </div>
+                                          <div class="w-100"></div>
+                                          <div class="col"> <h6 ><img src="./images/success.png" alt="">Modular Components</h6>    </div>
+                                          <div id="fourth" class="col"><h6 ><img src="./images/success.png" alt=""></i>Suits Your Style</h6>    </div>
+                                      </div>
+                                          <!-- <div class="smallHeads">
+                                            <h6 ><img src="./images/success.png" alt="">Fully Responsive</h6>    
+                                            <h6 ><img src="./images/success.png" alt="">Multiple Layout</h6>    
                                         </div>  
                                           <div class="smallHeads">
-                                                <h6 class="headS"><i class="fa fa-certificate" aria-hidden="true"></i>Modular Components</h6>    
-                                                <h6 class="headS"><i class="fa fa-certificate" aria-hidden="true"></i>Suits Your Style</h6>    
-                                          </div>  
+                                                <h6 ><img src="./images/success.png" alt="">Modular Components</h6>    
+                                                <h6 ><img src="./images/success.png" alt=""></i>Suits Your Style</h6>    
+                                          </div>   -->
                                            
                                        
                                     </div>
                                   </div>
                     </div>
                     <div class="part1">
-                            <img src="./images/jon-tyson-t2cp_cWMo3o-unsplash.jpg" alt="">
+                            <img src="https://jumpstart.mediumra.re/assets/img/illustrations/illustration-2.svg" alt="">
                             
                         </div>
                 </div>
@@ -266,74 +302,87 @@
                     <div class="sectionHead">
                             <h1 class="headL">Scales with your business</h1>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit 
-                             voluptatem accusantium doloremque laudantium, totam
-                             rem aperiam, eaque ipsa.</p>
+                             voluptatem</p>
+                             <p> accusantium doloremque laudantium, totam
+                                rem aperiam, eaque ipsa.</p>
                     </div>
                     <div id="Inline">
-                            <div>
-                       
-                                    <div id="box" class="card" style="width: 18rem;">
-                                            <div class="card-body">
-                                          <ul class="list-group">
-                                              <div style="text-align: center; list-style: none;">
-                                                  <li class="headS">Basic</li>
-                                                  <li class="headL">$19</li>
-                                              </div>
-                                              <li class="list-group-item">2GB Cloud Storage</li>
-                                              <li class="list-group-item">100GB CDN Bandwidth</li>
-                                              <li class="list-group-item">98.88% Uptime Guarantee</li>
-                                              <li class="list-group-item">Personal Account Manager</li>
-                                              <li class="list-group-item">Enterprise SLA</li>
-                                          </ul>
-                                             <a href="#" class="btn btn-primary">Start with Basic</a>
-                                            </div>
-                                          </div>
-                            
-                        </div>
-                        <div>
-                       
-                                <div id="box" class="card" style="width: 18rem;">
-                                        <div class="card-body">
-                                                <ul class="list-group">
-                                                  <div style="text-align: center; list-style: none;">
-                                                      <li class="headS">Premium</li>
-                                                      <li class="headL">$29</li>
-                                                  </div>
-                                              
-                                                        <li class="list-group-item">2GB Cloud Storage</li>
-                                                        <li class="list-group-item">100GB CDN Bandwidth</li>
-                                                        <li class="list-group-item">98.88% Uptime Guarantee</li>
-                                                        <li class="list-group-item">Personal Account Manager</li>
-                                                        <li class="list-group-item">Enterprise SLA</li>
-                                                    </ul>
-                                         <a href="#" class="btn btn-primary" >Start with Premium</a>
-                                        </div>
+                        <div class="card-box">
+                            <ul class="plan-ul">
+                                <div class="plan-head">
+                                    <li class="headS">Basic</li>
+                                    <div class="row">
+                                        <div id="dollar" class="col"><li class="headS"></li>$</li></div>
+                                        <div class="col"><li class="headL">19</li></div>
                                       </div>
-                        
-                    </div>
-                    <div>
-                       
-                            <div id="box" class="card" style="width: 18rem;">
-                                    <div class="card-body">
-                                            <ul class="list-group">
-                                                <div style="text-align: center; list-style: none;">
-                                                    <li class="headS">Pro</li>
-                                                    <li class="headL">$79</li>
-                                                </div>
-                                                    <li class="list-group-item">2GB Cloud Storage</li>
-                                                    <li class="list-group-item">100GB CDN Bandwidth</li>
-                                                    <li class="list-group-item">98.88% Uptime Guarantee</li>
-                                                    <li class="list-group-item">Personal Account Manager</li>
-                                                    <li class="list-group-item">Enterprise SLA</li>
-                                                </ul>
-                                     <a href="#"  class="btn btn-primary align-items-center">Start with Pro</a>
-                                    </div>
+                                </div>
+                                <h6> Per user, per month</h6>
+                                <div class="plan-features">
+                                    <li><img src="./images/success.png" alt=""> 2GB Cloud Storage</li>
+                                    <li><img src="./images/success.png" alt=""> 100GB CDN Bandwidth</li>
+                                    <li><img src="./images/success.png" alt=""> 98.88% Uptime Guarantee</li>
+                                    <li class="disable"><img src="./images/wrong.png" alt=""> Personal Account Manager</li>
+                                    <li class="disable"><img src="./images/wrong.png" alt=""> Enterprise SLA</li>
+                                </div>
+                                    
+                            </ul>
+                               <a href="#"  class="btn btn-primary align-items-center">Start with Pro</a>
+                         </div>
+                         <div class="best">
+                         <div class="card-box">
+                          
+                              <ul class="plan-ul">
+                                  <div class="plan-head">
+                                    <h6>Best Value</h6>
+                                      <li class="headS">Primium</li>
+                                      <div class="row">
+                                        <div id="dollar" class="col"><li class="headS"></li>$</li></div>
+                                        <div class="col"><li class="headL">29</li></div>
+                                      </div>
+                                     
                                   </div>
-                    
-                </div>
-                    </div>
+                                      <h6> Per user, per month</h6>
+                                      <div class="plan-features">
+                      
+                                      <li><img src="./images/success.png" alt=""> 2GB Cloud Storage</li>
+                                      <li><img src="./images/success.png" alt=""> 100GB CDN Bandwidth</li>
+                                      <li><img src="./images/success.png" alt=""> 98.88% Uptime Guarantee</li>
+                                      <li><img src="./images/success.png" alt=""> Personal Account Manager</li>
+                                      <li class="disable"><img src="./images/wrong.png" alt=""> Enterprise SLA</li>
+                                      </div>
+                              </ul>
+                                 <a href="#"  class="btn btn-primary align-items-center">Start with Pro</a>
+                           </div>
+                          
+                         </div>
 
+                         <div class="card-box">
+                            <ul class="plan-ul">
+                                <div class="plan-head">
+                                    <li class="headS">Pro</li>
+                                    <div class="row">
+                                        <div id="dollar" class="col"><li class="headS"></li>$</li></div>
+                                        <div class="col"><li class="headL">79</li></div>
+                                      </div>
+                                   
+                                </div>
+                                  
+                                <h6> Per user, per month</h6> 
+                                <div class="plan-features">
+                                    <li><img src="./images/success.png" alt="">  2GB Cloud Storage</li>
+                                    <li><img src="./images/success.png" alt="">  100GB CDN Bandwidth</li>
+                                    <li><img src="./images/success.png" alt="">  98.88% Uptime Guarantee</li>
+                                    <li><img src="./images/success.png" alt="">  Personal Account Manager</li>
+                                    <li><img src="./images/success.png" alt="">  Enterprise SLA</li>
+                                </div>    
+                            </ul>
+                               <a href="#"  class="btn btn-primary align-items-center">Start with Pro</a>
+                         </div>
+                    
+                    </div>
             </div>
+
+           
 
         </section>
         <section class="sec7">
@@ -346,11 +395,12 @@
                                       <button class="btn btn" type="button" data-toggle="collapse"
                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                        Can I upgrade later on?
+                                     
                                       </button>
                                     </h2>
                                   </div>
                               
-                                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                                     <div class="card-body">
                                       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                                     </div>
@@ -361,6 +411,7 @@
                                     <h2 class="mb-0">
                                       <button class="btn btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         Can I port my data from another provider?
+                                        
                                       </button>
                                     </h2>
                                   </div>
@@ -385,42 +436,42 @@
                                   </div>
                                 </div>
                                 <div class="card">
-                                  <div class="card-header" id="headingThree">
+                                  <div class="card-header" id="headingFour">
                                     <h2 class="mb-0">
-                                      <button class="btn btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Are my food photos stored forever in the cloud?
+                                      <button class="btn btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                          Who foots the bill for that?
                                       </button>
                                     </h2>
                                   </div>
-                                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                                     <div class="card-body">
                                       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                                     </div>
                                   </div>
                                 </div>
                                 <div class="card">
-                                  <div class="card-header" id="headingThree">
+                                  <div class="card-header" id="headingFive">
                                     <h2 class="mb-0">
-                                      <button class="btn btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Who foots the bill for that?
+                                      <button class="btn btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                          What's the real cost?
                                       </button>
                                     </h2>
                                   </div>
-                                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                                     <div class="card-body">
                                       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                                     </div>
                                   </div>
                                 </div>
                                 <div class="card">
-                                  <div class="card-header" id="headingThree">
+                                  <div class="card-header" id="headingSix">
                                     <h2 class="mb-0">
-                                      <button class="btn btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                      <button class="btn btn collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
                                         Can my company request a custom plan?
                                       </button>
                                     </h2>
                                   </div>
-                                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                                     <div class="card-body">
                                       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                                     </div>
@@ -433,7 +484,7 @@
         <section class="sec8">
           <div id="Inline" class="row align-items-center ">
             <div class="row justify-content-start">
-              <ul >
+              <ul class="footer-list" >
                 <li class="headS">Demos</li>
                 <li>Landing 1</li>
                 <li>Landing 2</li>
@@ -444,7 +495,7 @@
               </ul>
             </div>
             <div>
-                <ul>
+                <ul  class="footer-list">
                     <li class="headS">Pages</li>
                     <li>Company</li>
                     <li>Blog</li>
@@ -455,35 +506,82 @@
                     
                   </ul>
             </div>
-            <div>
-              <ul>
-                <li class="headS">Article</li>
-                <li><img class="footerImg" src="./images/freestocks-org-pUvMN3j2kGc-unsplash.jpg"  alt="...">Introducing the new jumpstart brand
-                </li>
-                <li><img class="footerImg" src="./images/freestocks-org-pUvMN3j2kGc-unsplash.jpg"  alt="...">Making the most of team-building sessions
-                </li>
-              </ul>
-              
+            <div class="articlesWrapper" c>
+                <div class="footer-list">
+                    <ul class="footer-list">
+                      <li class="Articles" class="headS">Articles</li>
+                      <div class="row">
+                        <div class="col">
+                          <li>
+                            <img class="footerImg" src="https://jumpstart.mediumra.re/assets/img/blog/thumb-2.jpg"  alt="...">
+                          </li>
+                        </div>
+                        <div class="col" id="articleImageText">
+                            <li>
+                                <p>Introducing the new </p>
+                                  <p>Jumpstart brand</p>
+                                <div class="date">October 10th</div> 
+                              </li>
+                        </div>
+                       
+                      </div>
+                     
+                      <div class="row">
+                          <div class="col">
+                            <li>
+                              <img class="footerImg" src="https://jumpstart.mediumra.re/assets/img/blog/thumb-1.jpg"  alt="...">
+                            </li>
+                          </div>
+                          <div class="col" id="articleImageText">
+                              <li>
+                                  <p>Making the most team-</p>
+                                    <p>building sessions</p>
+                                    <div class="date">October 2nd</div> 
+                                </li>
+                            </div>
+                          </div>
+                         
+                    
+                  </div>
             </div>
+            
             <div class="row-services">
               <h3 class="headS">Newsletter</h3>
-              <input type="text" name="" placeholder="Email Address">
-              <button class="btn btn-primary">Go</button>
-              <p>We'll never share your email address</p>
+              <div class="footer-card"  class="row align-items-center justify-content-center ">
+                <h6>Get a bi-weekly digest of great articles</h6>
+                <div class="input-wrapper">
+                  <input type="text" name="" placeholder="Email Address">
+                 <button class="btn btn-primary">Go</button>
+               </div>
+                <p>We'll never share your email address</p>
+              </div>
+        
             </div>
           </div>
 
         </section>
-        <p>© 2019 Page protected by reCAPTCHA and subject to Google's Privacy Policy and Terms of Service</p>
+        
         <section class="sec9">
 
+           <div class="container">
+             <div class="row">
+                <p>© 2019 Page protected by reCAPTCHA and subject to Google's Privacy Policy and Terms of Service</p>
+              <div class="socialMedia">
+                  <i class="fa fa-futbol-o" aria-hidden="true"></i>
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i class="fa fa-google" aria-hidden="true"></i>
+              </div>
+             </div>
+           </div>
         </section>
         
 
     </div>
 
 
-
+  
 
 
 <script
@@ -491,7 +589,27 @@
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
 
- <script src=" https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
- </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+ 
+
+ <script src=" https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> </script>
+   <script>
+        
+        $(window).on('scroll',function () {
+          if($(window).scrollTop()){
+              $('nav').addClass('white');
+          }
+          else{
+            $('nav').removeClass('white');
+          }
+        });
+    
+</script>
+
 </body>
 </html>
