@@ -1,5 +1,9 @@
 body{
-    font-family: 'Nunito', sans-serif;
+    font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+body a{
+    text-decoration: none
 }
 #Inline{
     width:  100%;
@@ -16,18 +20,17 @@ body{
 
     padding-bottom: 20px;
 }
-nav.white{
+.navbar.scrolled{
     background: white !important;
     transition: background 500ms;
 }
-nav.white .headBrand{
+nav.scrolled svg{
     color: #2c3038;
     font-weight: 600;
 }
-nav.white .container ul li .headS{
-color: #030303;
-font-weight: 100
 
+.navbar-dark .navbar-brand-dynamic-color svg [fill]:not([fill=none]), .navbar-dark .navbar-toggler svg [fill]:not([fill=none]) {
+    fill: #fff !important;
 }
 #mainNavbar button{
     width: 158.8px;
@@ -43,33 +46,186 @@ font-weight: 100
    
     
 }
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+nav svg{
+    fill: white ;
+    color: white;
+    margin-left: -3px;
+}
+/* nav navbar-brand{
+    color: white 
+} */
+.injected-svg{
+    color: white !important
+}
 #mainNavbar .container ul li{
     padding-left:  15px;
     color: #b4bbc3
 }
+.navbar{
+    list-style: none
+}
+.dropdown-toggle:after {
+    border: none!important;
+    transition: all .2s ease-in-out;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    padding-top: 0px;
+    margin-left: 3px;
+    margin-bottom: -2px;
+    transform: rotateZ(90deg);
+    background-image: url("data:image/svg+xml,%3csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M14.376 11.584C14.6728 11.7819 14.6728 12.2181 14.376 12.416L9.77735 15.4818C9.44507 15.7033 9 15.4651 9 15.0657L9 8.93426C9 8.53491 9.44507 8.29671 9.77735 8.51823L14.376 11.584Z' fill='%23fff'/%3e%3c/svg%3e")
+
+}
+#mainNavbar .container ul li i{
+    font-size: 10px;
+    opacity: 0.25px;
+    /* margin-bottom: 15px; */
+    margin-left: 5px;
+    padding-top: -10px;
+    text-align: start
+}
 #mainNavbar .container ul li .headS{
-    color: #d3c5df
+    color: #d3c5df;
+    margin-bottom: 3px;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    display: flex;
+    align-items: center;
+}
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+ 
+}
+.dropdown-item{
+   text-decoration: none !important;
+
+    font-weight: 700 !important;
+    color: rgba(85, 90, 100, 0.6) !important;
+  
+}
+.dropdown-item:hover{
+    color: #2568ef !important;
+    background: none;
+}
+.dropdown-menu.show {
+    display: block;
+   
+    margin-top: 7px;
+    margin-left: 4px;
+    border-radius: .3125rem;
+    padding-top: 17px;
+    background: #fff;
+    border-radius: .3125rem;
+    border: 1px solid #eaedf2;
+    padding: 1rem 0;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.09);
+    min-width: 10rem;
+}
+
+.dropdown-toggle {
+    white-space: nowrap;
+}
+a {
+    font-weight: 700;
+}
+a {
+    color: #2568ef;
+}
+a {
+    color: #2568ef;
+    text-decoration: none;
+    background-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+@media (min-width: 1200px){
+.navbar-nav>.nav-item {
+    font-size: 0.25rem;
+    list-style: none;
+    text-decoration: none;
+}
+}
+li {
+    text-align: -webkit-match-parent;
 }
 #mainNavbar .container ul li .headS:hover{
     color: white;
     text-decoration: none
 }
 .navbar {
-    padding-bottom: 50px;
+    
     transition:  500ms;
     height: 80px;
 }
-.navbar .headBrand{
-    padding-bottom: 20px;
-    color: white;
-    margin-top: 12px;
-}
+
 .navbar .headBrand:hover{
     text-decoration: none
 }
-.headBrand{
-    font-size: 28px;
-    font-weight: bold;
+/* 
+ svg [fill]:not([fill=none]),
+.navbar-dark .navbar-toggler svg [fill]:not([fill=none]) {
+    fill: #fff;
+}  */
+
+.navbar.scrolled.navbar-dark .navbar-toggler svg [fill]:not([fill=none]) {
+    fill: #0859fc !important
+}
+nav.scrolled svg [fill]:not([fill=none]), .navbar-dark .navbar-toggler svg [fill]:not([fill=none]) {
+    fill: #2c3038 ;
+    transition: 500ms;
+}
+.navbar.scrolled.navbar-dark .navbar-brand-dynamic-color svg [fill]:not([fill=none]){
+    fill: #2c3038 !important;
+}
+.navbar.scrolled.navbar-right .nav-item{
+    color: rgba(255,255,255,.65);
+}
+.navbar-right button{
+    /* margin-right: -39px; */
+    background-color: #2568ef;
+    border: none;
+    font-weight: 700 !important;
+   
+}
+
+.navbar-right{
+   margin-right: -19px;
+}
+.navbar-right .nav-item{
+    margin-right: -0.9px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.65);
+    padding-right: .75rem;
+    padding-left: -100px;
+    margin-left: -14.5px;
+    font-size: 1.25rem;
+}
+
+.navbar.scrolled.nav-item {
+    color: rgba(255, 255, 255, 0.65) !important;
+    
+}
+.navbar-right .nav-item:hover{
+    color: white
+}
+.dropdown-toggle:not(:hover):after {
+    opacity: .25;
 }
 
 .headXL{
@@ -96,9 +252,12 @@ font-weight: 100
    
 }
 .sec1{
-     margin-top: 60px;
+     margin-top: 50px;
      padding-top: 100px;
      background: linear-gradient(0.25turn, #2a68ec, #875ebd, #ef686c);
+}
+.sec1 .part1{
+    margin-left: 29px
 }
 .small-card i{
     font-size: 30px;
@@ -110,12 +269,56 @@ font-weight: 100
     margin-left: 30px;
     padding-left: 10px;
 }
-.sec1 .part2{
-    margin-left: 45px;
+.sec1 .part2  .small-card{
+    margin-left: 37px;
+    width: 283.61px;
+    letter-spacing: -.02em;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #2c3038;
+    padding-left: 6px;
+}
+
+.sec1 .part2  .small-card:nth-child(2){
+    margin-top: 16px;
+    margin-left: 37px;
+    text-align: center;
+    padding-left: 12px;
+    
 }
 .part1 p{
     color: white;
-    font-weight: 500
+    font-weight: 500;
+    margin-left: -20px;
+}
+.part1 h1:nth-child(2){
+    margin-top: -8px;
+}
+.part1 p{
+margin-bottom: -34px;
+margin-left: -10px;
+margin-top: 14px;
+
+}
+/* .part1 p:nth-child(2){
+    margin-top: -10px;
+} */
+.sec1-display3-p{
+margin-bottom: 80px;
+margin-left: -0.3px;
+}
+.display-3{
+    font-weight: 700;
+    color: white;
+    letter-spacing: -.02em;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-left: -0.3px;
+    font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin-top: -4px;
+    text-align: left !important
 }
 #form{
     display: flex;
@@ -130,6 +333,8 @@ padding-right: 20px;
 padding-top: 20px;
 padding-bottom: 20px;
 border-radius: 5px;
+margin-left: 65px;
+line-height: 1.5em;
 }
 .sec1 form{
     width: 377px;
@@ -137,23 +342,30 @@ border-radius: 5px;
 }
 form{
     margin-left: 5px;
+    margin-top: 0px;
+    line-height: 1.5em;
+
 }
-form input{
-    height: 48px;
-    border: 1px solid #eaedf2;
-    border-radius: .1875rem;
-}
+
 form button{
     margin-left: 10px;
     margin-top:16px;
+}
+form select option{
+    font-weight: 600;
 }
 .form-head{
     color: #555a64;
     font-size: 1rem;
     font-weight: 600;
     line-height: 1.5;
+    font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
     display: inline-block;
   margin-left: 10px;
+  padding-bottom: -100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .form-container{
     margin-left: -25px;
@@ -164,6 +376,12 @@ form button{
     padding-bottom: 20px;
     margin: 10px;
 }
+form button{
+    margin-top: 20px;
+    background-color: #2568ef !important;
+    font-weight: 600 !important;
+    font-family: inherit !important
+}
 .part1{
     margin-top: 100px;
     width: 475px;
@@ -173,6 +391,20 @@ form button{
 .form-control{
     margin: 10px;
     height: 48px;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1.375rem + 2px);
+    padding: .6875rem .75rem;
+    font-size: 1rem;
+   
+    line-height: 1.5;
+    color: #b4b5ba;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #eaedf2;
+    border-radius: .1875rem;
+    box-shadow: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .small-card{
 
@@ -206,6 +438,9 @@ form button{
 }
 .sec2 .jumbotron .container #headS{
     margin-left: -8px;
+}
+.sec2 .jumbotron .container h1{
+    width: 463px;
 }
 .jumbotron{
     background-color: white;
@@ -587,6 +822,9 @@ color: #2568ef
     align-items: center;
     
 }
+.sec8 #Inline{
+    height: 612.97px;
+}
 .footerImg{
     margin: 20px;
     width: 148px;
@@ -604,16 +842,32 @@ color: #2568ef
 .row-services h3{
     padding-left: 0;
 }
-.footer-list{
-    margin-right: 22px;
+.pagesAndDemo{
+    margin-left: 90px;
+    padding-left: 0.06px;
+    margin-top: 49px;
 }
+.footer-list{
+    letter-spacing: -.02em;
+   margin-top: 59px;
+
+   margin-right: 28px;
+  
+}
+
 .footer-list li{
     color: #b4bbc3;
-    padding: 8px;
+    padding-right: 17px;
+    padding-bottom: 16px;
     font-weight: bold;
+    letter-spacing: 0px;
+    
+    
 }
 .footer-list .headS{
     color: white;
+    margin-bottom: 5px;
+    margin-left: -10px;
     
 }
 .footer-list .Articles{
@@ -665,16 +919,21 @@ color: #2568ef
     padding-top: 14px;
 }
 .articlesWrapper{
-    margin-top: 81px;
+    margin-top: 126px;
+    margin-left: -10px;
+    margin-right: 0px;
 }
 #articleImageText{
     margin-top: 29px;
     line-height: 0.7;
     margin-left: -40px;
     font-size: 16px;
+    color: rgba(255,255,255,.5)!important;
 }
 .date{
-    font-size: 12px;
+    font-size: .875rem;
+    line-height: 1.25rem;
+
     font-weight: 600;
 }
 .sec9{
